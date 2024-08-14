@@ -12,11 +12,11 @@ function condicionesIniciales(){
 function encriptar(){
   let texto = document.getElementById("mensajeDesencriptado").value;
   let textoCifrado = texto
-    .replace(/a/gi, "al")
-    .replace(/e/gi, "enter")
-    .replace(/i/gi, "imes")
-    .replace(/o/gi, "ober")
-    .replace(/u/gi, "ufat");
+   .replaceAll("e", "enter")
+   .replaceAll("i", "imes")
+   .replaceAll("a", "ai")
+   .replaceAll("o", "ober")
+   .replaceAll("u", "ufat");
 
     if (texto.match(caracteresEsp)){     //Valida que no haya caracteres especiales
       mensajeError();
@@ -32,11 +32,11 @@ function encriptar(){
 function desencriptar(){
   let textoCifrado = document.getElementById("mensajeEncriptado").value;
   let texto = textoCifrado
-    .replace(/al/gi, "a")
-    .replace(/enter/gi, "e")
-    .replace(/imes/gi, "i")
-    .replace(/ober/gi, "o")
-    .replace(/ufat/gi, "u");
+    .replaceAll("enter", "e")
+    .replaceAll("imes", "i")
+    .replaceAll("ai", "a")
+    .replaceAll("ober", "o")
+    .replaceAll("ufat", "u");
 
     if (textoCifrado.match(caracteresEsp)){     //Valida que no haya caracteres especiales
       mensajeError();
