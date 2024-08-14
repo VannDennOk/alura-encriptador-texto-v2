@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/*
+font-style: 400;    --> Regular
+font-style: 700;    --> Bold
+font-size: 16px = 1rem
+*/
+
+/*variables en css*/
+:root{
+   
+    /*AZULES*/
+    --azulClaro: #356EA9; /*boton desencriptar, label botón copiar*/
+    --azulPrincipal: #0A3871; /*boton encriptar, boton pop up, headline, placeholder*/
+    --azulOscuro: #052051; /*footer, hover botones*/
+
+    /*SIMIL NEGRO - OSCUROS*/    
+    --similNegroClaro: #010A18;
+    --similNegroOscuro: #010610;
+
+    /*SIMIL BLANCO - CLAROS*/
+    --similBlancoClaro:  #f3f5fc; /*fondo de caja de texto, fondo pop ups, font sobre fondo oscuro, label botones, boton copiar*/
+    --similBlancoOscuro: #E9ECF8; /*fondo de página*/
+
+    /*GRISES*/
+    --grisClaro: #868e96; /*boton close popup*/
+    --grisOscuro: #343A40; /*texto advertencia, texto pop up, boton close popup hover*/
+
+
+    /*FONTS*/
+    --font-inter: "Inter", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--azulOscuro);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--similBlancoOscuro);
+    padding: 16px 40px 0px;
+}
+
+.logoModoClaro{
+    height: 48px;
+    width: auto;
+    background-color: transparent;
+}
+
+.logoModoOscuro{
+    height: 48px;
+    width: auto;
+    background-color: transparent;
+    display: none;
+}
+
+.headline{
+    font-family: var(--font-inter);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--azulPrincipal);
+    background-color: transparent;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    gap: 40px;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 80px;
+    height:90vh;
+    background-color: var(--similBlancoOscuro);
+}
+
+.swapImgModoClaro{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: -30%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.swapImgModoOscuro {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: -30%;
+    background-color: transparent;
+    border: none;
+    display: none;
+    cursor: pointer;
+}
+
+/*organiza elementos izquierda-derecha*/
+.container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+}
+/*recuadro para ingresar el texto a encriptar o desencriptar*/
+.textBox{
+    width: 100%;
+    height: 68%;
+    text-align: left;
+    resize: none;
+    background-color: var(--similBlancoClaro);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px -4px var(--grisClaro);
+    padding: 24px;
+}
+
+/*como se va a ver el texto escrito*/
+textarea{
+    color: var(--grisClaro);
+    font-family: var(--font-inter);
+    font-size: 2rem;
+    font-weight: 400;
+    border: none;
+    outline: transparent;
+    line-height: 150%;
+}
+
+/*mensaje que ahí debe escribirse*/
+::placeholder{
+    color: var(--azulPrincipal);
+    font-family: var(--font-inter);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/*mensaje de adevrtencia - definición del espacio que ocupa*/
+.advertencia__area{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 8px;
+}
+
+/*mensaje de adevrtencia - formato del ícono*/
+.advertencia__icono{
+    width: 16px;
+    height: 16px;
+}
+
+/*mensaje de adevrtencia - formato del texto*/
+.advertencia__texto{
+    font-family: var(--font-inter);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grisOscuro);
+    margin-left: 8px;
+}
+
+/*botones - definición del espacio que ocupan*/
+.buttons__area{
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/*botones - formato*/
+.buttons__encriptar{
+    width: 49%;
+    height: 48px;
+    font-family: var(--font-inter);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--similBlancoClaro);
+    background-color: var(--azulPrincipal);
+    border: 2px solid var(--azulPrincipal);
+    border-radius: 24px;
+    padding: 8px 24px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttons__desencriptar{
+    width: 49%;
+    height: 48px;
+    font-family: var(--font-inter);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--similBlancoClaro);
+    background-color: var(--azulClaro);
+    border: 2px solid var(--azulClaro);
+    border-radius: 24px;
+    padding: 8px 24px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttons__copiar{
+    width: 49%;
+    height: 48px;
+    font-family: var(--font-inter);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--azulPrincipal);
+    background-color: var(--similBlancoClaro);
+    border: 2px solid var(--azulPrincipal);
+    border-radius: 24px;
+    padding: 8px 24px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: var(--color-DarkBlue300-acento);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    padding: 20px 20px 20px 20px;
+}
+
+.footer__text{
+    font-family: var(--font-inter);
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--similBlancoClaro);
+}
+
+.footer__link__area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    height: 24px;
+}
+
+.footer__link__icon{
+    width: 24px;
+
+}
+
+/*FORMATO DE LOS POPUP o MENSAJES*/
+.popup__texto{
+    font-family: var(--font-inter);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grisOscuro);
+    padding: 1%;
+}
+
+.popup__box{
+    background-color: var(--similBlancoClaro);
+    width: 50%;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.popup__button{
+    width: 120px;
+    height: 48px;
+    font-family: var(--font-inter);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--similBlancoClaro);
+    background-color: var(--azulPrincipal);
+    border: 2px solid var(--azulPrincipal);
+    padding: 8px 24px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.popup__closeButton{
+    color: var(--grisClaro);
+}
+
+
+.popup__closeButton:hover{
+        color: var(--grisOscuro);
+}
+
+/*HOVER BUTTONS*/
+/*botones - formato cuando se pasa el cursor por arriba*/
+.buttons__encriptar:hover,
+.buttons__desencriptar:hover,
+.buttons__copiar:hover,
+.popup__button:hover{
+    background-color: var(--azulOscuro);
+    border-color: var(--azulOscuro);
+    color: var(--similBlancoClaro);
+}
+
+/*PASAR A MODO OSCURO*/
+.icono__sol{
+    margin-top: 3px;
+    margin-left: 1px;
+    height: 20px;
+    width: 20px;
+}
+
+.icono__luna{
+    margin-top: 3px;
+    margin-right: 1px;
+    height: 16px;
+    width: 16px;
+}
+
+.switch{
+    width: 60px;
+    height: 30px;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 100px;
+    border: solid thin var(--grisClaro);
+    background-color: var(--grisClaro);
+    cursor: pointer;
+}
+
+.switch::before{
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: solid thin var(--grisClaro);
+    background-color: var(--similBlancoClaro);
+    left: 0;
+    right: unset;
+}
+
+.switch.active {
+    border: solid thin var(--azulOscuro);
+    background-color: var(--azulOscuro);    
+}
+
+.switch.active::before{
+    right: 0;
+    left: unset;
+    border: solid thin var(--azulOscuro);
+}
+
+body.active {
+    background-color: var(--similNegroClaro);
+}
+
+body.active header {
+    background-color: var(--similNegroOscuro);
+}
+
+body.active .logoModoClaro {
+    display: none;
+}
+
+body.active .logoModoOscuro{
+    display: block;
+}
+
+body.active .headline {
+    color: var(--similBlancoClaro);
+}
+
+body.active main {
+    background-color: var(--similNegroOscuro);
+}
+
+body.active .swapImgModoClaro {
+    display: none;
+}
+
+body.active .swapImgModoOscuro{
+    display: block;
+}
+
+body.active .textBox {
+    background-color: var(--similNegroClaro);
+    box-shadow: 0px 4px 8px -4px #000;
+}
+
+body.active ::placeholder {
+    color: var(--similBlancoClaro);
+}
+
+body.active .buttons__copiar{
+    background-color: var(--similNegroClaro);
+    border-color: var(--grisClaro);
+    color: var(--grisClaro);
+}
+
+body.active .buttons__desencriptar{
+    background-color: var(--azulOscuro);
+    border-color: var(--azulOscuro);
+    color: var(--similBlancoClaro);
+}
+
+body.active .advertencia__texto{
+    color: var(--grisClaro);
+}
+
+body.active .swapImgModoClaro {
+    display: none;
+}
+
+body.active .footer{
+    background-color: var(--similNegroClaro);
+}
+
+body.active .buttons__encriptar:hover,
+body.active .buttons__desencriptar:hover,
+body.active .buttons__copiar:hover,
+body.active .popup__button:hover{
+    background-color: var(--similBlancoOscuro);
+    border-color: var(--similBlancoOscuro);
+    color: var(--similNegroOscuro);
+}
+
+body.active .popup__texto{
+    color: var(--similBlancoClaro);
+}
+
+body.active .popup__box{
+    background-color: var(--similNegroClaro);
+}
+
+body.active .popup__closeButton{
+    color: var(--similBlancoOscuro);
+}
+
+body.active .popup__closeButton:hover{
+    color: var(--similBlancoClaro);
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*DISEÑO RESPONSIVO - TABLET*/
+@media (max-width: 942px) {
+    .main{
+        flex-direction: column;
+        height: 100%;
+    }
+   
+    .swapImgModoClaro, .swapImgModoOscuro{
+        margin: 24px 0px;
+    }
+   
+    /*organiza elementos izquierda-derecha*/
+    .container{
+        width: 100%;
+        height: 50%;
+    }
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+    }
+    .footer__link__area{
+        padding: 32px 0px 0px;
+    }
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*DISEÑO RESPONSIVO - CELULAR*/
+@media (max-width: 600px) {
+   
+    /*botones - definición del espacio que ocupan*/
+    .buttons__area{
+        height: 96px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*botones - formato*/
+    .buttons__encriptar{
+        width: 100%;
+        margin: 4px 0px;
+    }  
+
+    .buttons__desencriptar{
+        width: 100%;
+        margin: 4px 0px;    
+    }
+
+    .buttons__copiar{
+        width: 100%;
+        height: 95%;
+        padding: 0%;
+    }
+}
