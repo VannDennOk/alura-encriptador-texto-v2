@@ -10,9 +10,10 @@
 <p>
 Encriptador de texto realizado para el Challenge ONE Front End de Alura-Latam.
 <br>Esta página web permite encriptar y desencriptar un texto, además de copiarlo al portapapeles.
+<br>
 <br> VERSIÓN 2:
 <br>a. Se tomó el diseño y el branding base propuesto por Alura Latam y se cambió la distribución de los elementos manteniendo las funcinalidades principales de encriptar/desencriptar/copiar mensaje.
-<br>b. Se agregó un switch para modo claro / modo oscuro.</p>
+<br>b. Se agregó un switch para modo claro / modo oscuro.
 <br>c. Se agregó un botón para intercambiar el texto entre ambas cajas.
 </p>
 
