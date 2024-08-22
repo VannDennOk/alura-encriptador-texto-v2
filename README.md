@@ -8,13 +8,18 @@
 
 <h2>Descripción del proyecto :bulb:</h2>
 <p>
-Encriptador de texto realizado para el Challenge ONE Front End de Alura-Latam.
-<br>Esta página web permite encriptar y desencriptar un texto, además de copiarlo al portapapeles.
-<br>
+    Encriptador de texto realizado para el Challenge ONE Front End de Alura-Latam.
+    <br>Esta página web permite encriptar y desencriptar un texto, además de copiarlo al portapapeles.
+</p>
 <br> VERSIÓN 2:
-<br>a. Se tomó el diseño y el branding base propuesto por Alura Latam y se cambió la distribución de los elementos manteniendo las funcinalidades principales de encriptar/desencriptar/copiar mensaje.
+<br>a. Se tomó el diseño y el branding base propuesto por Alura Latam y se cambió la distribución de los elementos manteniendo las funcionalidades principales de encriptar/desencriptar/copiar mensaje.
 <br>b. Se agregó un switch para modo claro / modo oscuro.
 <br>c. Se agregó un botón para intercambiar el texto entre ambas cajas.
+</p>
+<br> VERSIÓN 3:
+<br>a. Se propone un nuevo diseño basado en la tendencia neo-brutalism, se mantuvo la distribución de los elementos de la versión 2 y las funcionalidades principales de encriptar/desencriptar/copiar mensaje.
+<br>b. Se agregó un switch para modo claro / modo oscuro.
+<br>c. Se agregó un botón para limpiar las cajas.
 </p>
 
 <h3>Funcionalidad :wrench:</h3>
@@ -49,12 +54,12 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 <br>
 <br>  
     &#9670;
-    <a href="https://github.com/VannDennOk/alura-encriptador-texto"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_del_proyecto_v1-darkviolet"></a>
+    <a href="https://github.com/VannDennOk/alura-encriptador-texto"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_del_proyecto_v1-indigo"></a>
     &#9670;
-    <a href="https://vanndennok.github.io/alura-encriptador-texto"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v1-darkviolet"></a>
+    <a href="https://vanndennok.github.io/alura-encriptador-texto"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v1-indigo"></a>
     &#9670;
 <br>
-<br> 
+<br>
     Versión v.2 (personalizada):
 <br>
 <br>  
@@ -63,8 +68,17 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
     &#9670;
     <a href="https://vanndennok.github.io/alura-encriptador-texto-v2"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v2-indigo"></a>
     &#9670;
+<br>
+<br>  
+    Versión v.3 (personalizada):
+<br>
+<br>  
+    &#9670;
+    <a href="https://github.com/VannDennOk/alura-encriptador-texto-v3"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_del_proyecto_v3-indigo"></a>
+    &#9670;
+    <a href="https://vanndennok.github.io/alura-encriptador-texto-v3"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v3-indigo"></a>
+    &#9670;
 </p>
-
 
 <h2>Autoría :woman:</h2>
 <p>
