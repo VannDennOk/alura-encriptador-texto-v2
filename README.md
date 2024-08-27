@@ -1,9 +1,8 @@
 
 <p align="center"><img src="./assets/Portada-V2-(small).png" alt="vista del encriptador" width="1000"></p>
-<br>
-<p align="left"><img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"></p>
 
 <h1>ENCRIPTADOR DE TEXTO V.2 :mag:</h1>
+<p align="left"><img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"></p>
 
 <h2>Descripción del proyecto :bulb:</h2>
 <p>
@@ -142,7 +141,7 @@ Dame los reconocimientos correspondientes si es necesario :gift_heart:
 </p>
 
 <h2>Notas finales :exclamation:</h2>
-<p>Este es uno de mis primeros "grandes" proyectos. Le puse mucho amor y mucho tiempo de dedicación. Aún me quedan cosas por aprender, mejorar mis "buenas prácticas", trabajar mejor en el responsive, etc., etc., etc. Por favor, miralo con el mismo amor que yo y si tenés algún comentario para ayudarme a crecer lo recibiré atentamente siempre y cuando venga con respeto.</p>
+<p>Este es uno de mis primeros "grandes" proyectos. Le puse mucho amor y mucho tiempo de dedicación. Aún me quedan cosas por aprender, mejorar mis "buenas prácticas", trabajar mejor en el responsive, utilizar mejor GitHub, etc., etc., etc. Por favor, miralo con el mismo amor que yo y si tenés algún comentario para ayudarme a crecer lo recibiré atentamente siempre y cuando venga con respeto.</p>
 
 <h2>Licencia :warning:</h2>
 <p>Este proyecto está bajo la licencia <a href="https://opensource.org/license/MIT"><img alt="Static Badge" src="https://img.shields.io/badge/MIT-red"></a></p>
