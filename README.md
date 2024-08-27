@@ -86,6 +86,7 @@ a. Se propone un nuevo diseño basado en la tendencia neo-brutalism, se mantuvo 
     <a href="https://vanndennok.github.io/alura-encriptador-texto-v2"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v2-indigo"></a>
     &#9670;
     <a href="https://www.figma.com/design/tf36fFk7DaSxRftQbOx7c8/Alura-Challenge---Desaf%C3%ADo-ONE---VD?node-id=412125-73"><img alt="Static Badge" src="https://img.shields.io/badge/Figma_v2-indigo"></a>
+    &#9670;
 <br>
 <br>  
     Versión v.3 (personalizada):
@@ -97,6 +98,7 @@ a. Se propone un nuevo diseño basado en la tendencia neo-brutalism, se mantuvo 
     <a href="https://vanndennok.github.io/alura-encriptador-texto-v3"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v3-indigo"></a>
     &#9670;
     <a href="https://www.figma.com/design/tf36fFk7DaSxRftQbOx7c8/Alura-Challenge---Desaf%C3%ADo-ONE---VD?node-id=412229-124"><img alt="Static Badge" src="https://img.shields.io/badge/Figma_v3-indigo"></a>
+    &#9670;
 </p>
 
 <h2>Autoría :woman:</h2>
