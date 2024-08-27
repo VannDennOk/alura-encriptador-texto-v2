@@ -1,13 +1,14 @@
-<h1>ENCRIPTADOR DE TEXTO V.2 :mag:</h1>
+
 <p align="center"><img src="./assets/Portada-V2-(small).png" alt="vista del encriptador" width="1000"></p>
 <br>
 <p align="left"><img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"></p>
 
+<h1>ENCRIPTADOR DE TEXTO V.2 :mag:</h1>
 
 <h2>Descripción del proyecto :bulb:</h2>
 <p>
-    Encriptador de texto realizado para el Challenge ONE Front End de Alura-Latam.
-    <br>Esta página web permite encriptar y desencriptar un texto, además de copiarlo al portapapeles.
+Encriptador de texto realizado para el Challenge ONE Front End de Alura-Latam.
+<br>Esta página web permite encriptar y desencriptar un texto, además de copiarlo al portapapeles.
 </p>
 
 <h3>Funcionalidad :wrench:</h3>
@@ -31,7 +32,7 @@ La encriptación funciona de ida y vuelta usando las claves:<br>
 <h3>Ejemplo :thumbsup:</h3>      
 <p align="left"><img src="https://img.shields.io/badge/gato_=>_galtober_<=>_galtober_=>_gato-gray?style=flat"></p>
 
-<h3>Extras :star:</h3>
+<h3>Extras :star2:</h3>
 <p>
 Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 </p>
@@ -42,6 +43,8 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 <p>
 Mantiene el branding y el diseño propuesto por Alura Latam con la intención de traducir lo más fielmente posible el prototipo en Figma y mantiene las funcionalidades descriptas más arriba.
 </p>
+<br>
+<p align="center"><img src="./assets/Portada-V1 (small).png" alt="vista del encriptador versión 1" width="600"></p>
 
 <h3>Versión :two:</h3>
 <p>
@@ -103,7 +106,7 @@ a. Se propone un nuevo diseño basado en la tendencia neo-brutalism, se mantuvo 
 
 <h2>Autoría :woman:</h2>
 <p>
-    El proyecto fue desarrollado por Vanina Denegri en base a los diseños provistos por Alura-Latam.
+El proyecto fue desarrollado por Vanina Denegri en base a los diseños provistos por Alura-Latam.
 <br>
 <br>
     &#9632;
@@ -113,10 +116,9 @@ a. Se propone un nuevo diseño basado en la tendencia neo-brutalism, se mantuvo 
     &#9632;
 </p>
 
-
 <h2>Reconocimientos :crown:</h2>
 <p>
-    Links útiles y utilizados para realizar este README:
+Links útiles y utilizados para realizar este README:
 <br>
 <br>
     &#9679;
@@ -127,3 +129,20 @@ a. Se propone un nuevo diseño basado en la tendencia neo-brutalism, se mantuvo 
     <a href="https://github.com/othneildrew/Best-README-Template/tree/master"><img alt="Static Badge" src="https://img.shields.io/badge/Ejemplo_Modelo_de_ReadMe-darkslategray "></a>
     &#9679;
 </p>
+
+<h2>Muestrame tu apoyo :gift_heart:</h2>
+<p> 
+Si te gustó mi proyecto podés dejarme alguna estrellita :star:
+<br>
+Mandarme algún mensaje :e-mail:
+<br>
+O seguirme en redes para comentar y compartir :bell:
+<br>
+Dame los reconocimientos correspondientes si es necesario :gift_heart:  
+</p>
+
+<h2>Notas finales :exclamation:</h2>
+<p>Este es uno de mis primeros "grandes" proyectos. Le puse mucho amor y mucho tiempo de dedicación. Aún me quedan cosas por aprender, mejorar mis "buenas prácticas", trabajar mejor en el responsive, etc., etc., etc. Por favor, miralo con el mismo amor que yo y si tenés algún comentario para ayudarme a crecer lo recibiré atentamente siempre y cuando venga con respeto.</p>
+
+<h2>Licencia :warning:</h2>
+<p>Este proyecto está bajo la licencia <a href="https://opensource.org/license/MIT"><img alt="Static Badge" src="https://img.shields.io/badge/MIT-red"></a></p>
