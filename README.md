@@ -1,7 +1,5 @@
 <h1>ENCRIPTADOR DE TEXTO V.2 :mag:</h1>
-<p align="center"><img src="./assets/PortadaModoClaro.png" alt="vista del encriptador en modo claro" width="600"></p>
-<br>
-<p align="center"><img src="./assets/PortadaModoOscuro.png" alt="vista del encriptador en modo oscuro" width="600"></p>
+<p align="center"><img src="./assets/Portada-V2-(small).png" alt="vista del encriptador" width="1000"></p>
 <br>
 <p align="left"><img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"></p>
 
@@ -10,16 +8,6 @@
 <p>
     Encriptador de texto realizado para el Challenge ONE Front End de Alura-Latam.
     <br>Esta página web permite encriptar y desencriptar un texto, además de copiarlo al portapapeles.
-</p>
-<br> VERSIÓN 2:
-<br>a. Se tomó el diseño y el branding base propuesto por Alura Latam y se cambió la distribución de los elementos manteniendo las funcionalidades principales de encriptar/desencriptar/copiar mensaje.
-<br>b. Se agregó un switch para modo claro / modo oscuro.
-<br>c. Se agregó un botón para intercambiar el texto entre ambas cajas.
-</p>
-<br> VERSIÓN 3:
-<br>a. Se propone un nuevo diseño basado en la tendencia neo-brutalism, se mantuvo la distribución de los elementos de la versión 2 y las funcionalidades principales de encriptar/desencriptar/copiar mensaje.
-<br>b. Se agregó un switch para modo claro / modo oscuro.
-<br>c. Se agregó un botón para limpiar las cajas.
 </p>
 
 <h3>Funcionalidad :wrench:</h3>
@@ -48,6 +36,33 @@ La encriptación funciona de ida y vuelta usando las claves:<br>
 Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 </p>
 
+<h2>Versiones :alien:</h2> 
+
+<h3>Versión :one:</h3>
+<p>
+Mantiene el branding y el diseño propuesto por Alura Latam con la intención de traducir lo más fielmente posible el prototipo en Figma y mantiene las funcionalidades descriptas más arriba.
+</p>
+
+<h3>Versión :two:</h3>
+<p>
+a. Se tomó el diseño y el branding base propuesto por Alura Latam y se cambió la distribución de los elementos manteniendo las funcionalidades principales de encriptar/desencriptar/copiar mensaje.
+<br>b. Se agregó un switch para modo claro / modo oscuro.
+<br>c. Se agregó un botón para intercambiar el texto entre ambas cajas.
+</p>
+<br>
+<p align="center"><img src="./assets/v2.ModoClaro.png" alt="vista del encriptador versión 2 en modo claro" width="600"></p>
+<p align="center"><img src="./assets/v2.ModoOscuro.png" alt="vista del encriptador versión 2 en modo oscuro" width="600"></p>
+
+<h3>Versión :three:</h3>
+<p>
+a. Se propone un nuevo diseño basado en la tendencia neo-brutalism, se mantuvo la distribución de los elementos de la versión 2 y las funcionalidades principales de encriptar/desencriptar/copiar mensaje.
+<br>b. Se agregó un switch para modo claro / modo oscuro.
+<br>c. Se agregó un botón para limpiar las cajas.
+<br>d. A modo de mantener la constinuidad con el primer diseño de Alura, se actualizó la imagen a los colores y diseño general.
+</p>
+<br>
+<p align="center"><img src="./assets/Portada-V3 (small).png" alt="vista del encriptador versión 3" width="600"></p>
+
 <h2>Acceso al proyecto :link:</h2>
 <p>
     Versión v.1 (original):
@@ -57,6 +72,8 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
     <a href="https://github.com/VannDennOk/alura-encriptador-texto"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_del_proyecto_v1-indigo"></a>
     &#9670;
     <a href="https://vanndennok.github.io/alura-encriptador-texto"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v1-indigo"></a>
+    &#9670;
+    <a href="https://www.figma.com/design/tf36fFk7DaSxRftQbOx7c8/Alura-Challenge---Desaf%C3%ADo-ONE---VD?node-id=0-1"><img alt="Static Badge" src="https://img.shields.io/badge/Figma_v1-indigo"></a>
     &#9670;
 <br>
 <br>
@@ -68,6 +85,7 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
     &#9670;
     <a href="https://vanndennok.github.io/alura-encriptador-texto-v2"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v2-indigo"></a>
     &#9670;
+    <a href="https://www.figma.com/design/tf36fFk7DaSxRftQbOx7c8/Alura-Challenge---Desaf%C3%ADo-ONE---VD?node-id=412125-73"><img alt="Static Badge" src="https://img.shields.io/badge/Figma_v2-indigo"></a>
 <br>
 <br>  
     Versión v.3 (personalizada):
@@ -78,6 +96,7 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
     &#9670;
     <a href="https://vanndennok.github.io/alura-encriptador-texto-v3"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v3-indigo"></a>
     &#9670;
+    <a href="https://www.figma.com/design/tf36fFk7DaSxRftQbOx7c8/Alura-Challenge---Desaf%C3%ADo-ONE---VD?node-id=412229-124"><img alt="Static Badge" src="https://img.shields.io/badge/Figma_v3-indigo"></a>
 </p>
 
 <h2>Autoría :woman:</h2>
